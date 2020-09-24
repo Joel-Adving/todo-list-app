@@ -1,0 +1,130 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://i.pinimg.com/originals/87/22/19/872219e39469e56ff5742581122212bf.jpg);
+    background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover; 
+background-size: cover; 
+      
+    
+}
+
+.s h1{
+    font-size: 32px;
+    border: 2px black solid;
+    width: 200px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    margin-top: 275px;
+    
+}
+
+
+
+input {
+    background: none;
+    color: black;
+    border: 2px black solid;
+    
+}
+
+#myLi{
+    width: 200px;
+    
+}
+
+.container1{
+    margin: 20px auto;
+    width: 200px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li:hover{
+    background: rgb(138, 199, 240);
+}
+
+
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: none;
+    font-size: 18px;
+    transition: 0.2s;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li.checked{
+    
+    color: red;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: white;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover{
+    background-color: red;
+    color: white;
+}
+
+/* .header {
+    
+} */
+
+.addBtn {
+    margin-top: 10px;
+    border: 2px solid black;
+    background: none;
+    width: 20px; 
+    color: black;
+    
+}
+
+.addBtn:hover {
+    background-color: rgb(138, 199, 240);
+    
+}
+
+
+
+
+
